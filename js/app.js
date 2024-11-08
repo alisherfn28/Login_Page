@@ -22,6 +22,10 @@ button &&
       realPage.style.display = "block";
       danger.style.display = "none";
     } else {
+      userLogin.focus();
       danger.style.display = "block";
     }
+
+    userLogin.value = "";
+    userPasword.value = "";
   });
