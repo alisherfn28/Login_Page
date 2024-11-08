@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.login_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 600px;
+  margin-top: 100px;
+  width: 364px;
+  height: 469px;
+}
+
+.logo_site h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: center;
+}
+
+.paragraf p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #525252;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+#form,
+#form2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #f0edffcc;
+}
+
+#userName,
+#Password {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: #f0edffcc;
+}
+
+#userName:focus,
+#Password:focus {
+  outline: none;
+}
+
+#btn {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  margin-left: 120px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(99.78deg, #9181f4 -5.85%, #5038ed 109.55%);
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 24px;
+  margin-top: 10px;
+}
+
+.login {
+  display: block;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.google,
+.facebook {
+  border: 1px solid #f0edff;
+  width: 364px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11px;
+  gap: 8px;
+  border-radius: 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+#danger {
+  text-align: center;
+  position: relative;
+  bottom: 215px;
+  color: red;
+}
+
+#real-page {
+  text-align: center;
+  font-size: 20px;
+  color: #5038ed;
+}
